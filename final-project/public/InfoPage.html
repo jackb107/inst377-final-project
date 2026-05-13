@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Airport Information</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="FrontEndJS.js" defer></script>
+</head>
+<body>
+    <header class="title-bar">
+        <h1 id="airport-title">Search for an Airport</h1>
+    </header>
+
+    <div class="button-63-group">
+        <button class="button-63" role="button" onclick="goHome()">Home</button>
+        <button class="button-63-2" role="button" onclick="goToAbout()">About</button>
+    </div>
+
+    <section class="controls-bar">
+        <form id="search-form" class="search-group" autocomplete="off" onsubmit="loadAirport();">
+            <label for="search-input" class="visually-hidden">Search:</label>
+            <select id="search-input">
+                <option value="" disabled selected>--- Select an Airport ---</option>
+                <option value="Newark Liberty International Airport">Newark Liberty International Airport</option>
+                <option value="John F. Kennedy International Airport">John F. Kennedy International Airport</option>
+                <option value="LaGuardia Airport">LaGuardia Airport</option>
+            </select>
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+    </section>
+
+    <h1 id="infoPageText">Select an airport from above to view basic information! &#9992;</h1>
+
+    <div id="airportInfo" class="airportInfo">
+        <h3 id="airportName"></h3>
+        <h4 id="airportCode"></h4>
+        <p id="airportWebsite"></p>
+        <button type="submit" id="favoriteAirportButton" onclick="addFavorite()">Favorite This Airport!</button>
+    </div>
+
+    <br>
+
+    <div id="swiper" class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img id="slide1" src="">
+            </div>
+            <div class="swiper-slide">
+                <img id="slide2" src="">
+            </div>
+            <div class="swiper-slide">
+                <img id="slide3" src="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <br>
+
+
+</body>
+</html>

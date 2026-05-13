@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="FrontEndJS.js" defer></script>
+</head>
+
+<body>
+
+    <header class="title-bar">
+        <h1 id="airport-title">Search for an Airport</h1>
+    </header>
+
+    <div class="button-63-group">
+        <button class="button-63" role="button" onclick="goToAbout()">About</button>
+        <button class="button-63-2" role="button" onclick="goToAirports()">Search Airports</button>
+    </div>
+
+    <h1 id="homePageText">Welcome to the New York City airport hub! Click the above buttons to navigate to the About page or the Search Airports page! &#9992;</h1>
+
+    <br>
+    
+    <div class="homePageImage">
+        <img id="homePageImage" src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt39cb04171bc3ea0d/668ac49bcf6f65148f6e61d8/jan-folwarczny-ZXBPMnNVtlE-unsplash-HEADER_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart">
+    </div>
+
+    <br>
+
+    <h2 id="favAirportLabel">Once you select a favorite airport, it will appear below!</h2>
+
+    <div id="favAirportInfo" class="favAirportInfo">
+        <h3 id="favAirportName"></h3>
+        <h4 id="favAirportCode"></h4>
+        <p id="favAirportWebsite"></p>
+        <button type="submit" id="favoriteAirportButton" onclick="deleteFavorite()">Delete Favorite</button>
+    </div>
+
+</body>
+
+</html>
+    

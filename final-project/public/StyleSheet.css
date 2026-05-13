@@ -1,0 +1,338 @@
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  float: left;
+  margin-left: 750px;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.button-63-2 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  float: right;
+  margin-right: 750px;
+}
+
+.button-63-2:active,
+.button-63-2:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63-2 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+#homePageText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial";
+}
+
+#infoPageText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial";
+}
+
+.airportInfo {
+    background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: none;
+  font-family: "Arial";
+}
+
+.favAirportInfo {
+    background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: none;
+  font-family: Arial;
+}
+
+.button-63-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBox {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: "Arial";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8c3c3;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    min-height: 100vh;
+}
+
+.title-bar {
+    background-color: #888888;
+    padding: 24px 20px;
+    text-align: center;
+    border-bottom: 4px solid #000;
+}
+
+.title-bar h1 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Lucida Handwriting", "Apple Chancery", "Brush Script MT", cursive;
+    font-style: italic;
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+.controls-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.buttons-group {
+    display: flex;
+    gap: 12px;
+}
+
+.tab-btn {
+    background-color: #00ffff;
+    border: 3px solid #000;
+    border-radius: 14px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.tab-btn:hover {
+    background-color: #66ffff;
+}
+
+.tab-btn.active {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.search-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #00ffff;
+    border: 3px solid #000;
+    border-radius: 14px;
+    padding: 6px 12px;
+}
+
+#search-input {
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    min-width: 280px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.search-btn {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.search-btn:hover {
+    background-color: #3333ff;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    padding: 8px 24px 32px 24px;
+}
+
+.left-panel {
+    background-color: #00ffff;
+    border: 4px solid #000;
+    border-radius: 18px;
+    padding: 18px 24px;
+    min-height: 480px;
+}
+
+.left-panel h2 {
+    margin: 0 0 12px 0;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.info-box {
+    background-color: #00ffff;
+    border: 4px solid #000;
+    border-radius: 18px;
+    padding: 16px 18px;
+}
+
+.info-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.image-placeholder {
+    width: 100%;
+    min-height: 180px;
+    background-color: #e0ffff;
+    border: 2px dashed #000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.controls-bar {
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper {
+  width: 70%;
+  height: 70%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+#aboutItalicized {
+    font-style: italic;
+}
+
+.homePageImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homePageImage {
+    width: 50%;
+}
+
+#chartTitle {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.chartClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#favAirportLabel {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}

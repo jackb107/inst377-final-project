@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <script src="FrontEndJS.js" defer></script>
+</head>
+
+<body>
+
+    <header class="title-bar">
+        <h1 id="airport-title">Search for an Airport</h1>
+    </header>
+
+    <div class="button-63-group">
+        <button class="button-63" role="button" onclick="goHome()">Home</button>
+        <button class="button-63-2" role="button" onclick="goToAirports()">Search Airports</button>
+    </div>
+
+    <div class="aboutBox">
+        <h1>Welcome to Search for an Airport!</h1>
+        <h2>This website is designed to help you research major airports in the New York City area.</h2>
+        <p id="aboutItalicized">Included airports include: Newark Liberty International Airport, John F. Kennedy International Airport, and LaGuardia Airport.</p>
+    </div>
+
+    <h3 id="chartTitle">What states are the NYC airports located in? Check below...</h3>
+
+    <br>
+    <br>
+
+    <div class="chartClass">
+        <canvas id="myChart"></canvas>
+    </div>
+
+</body>
+
+</html>
