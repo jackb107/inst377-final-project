@@ -1,6 +1,6 @@
 # "Search for an Airport", a website created by Jack Blessing and Ethan Patel.
 
-Our project intends to inform users about basic information regarding the three major New York City airports: Newark Liberty International Airport, John F. Kennedy International Airport, and Laguardia Airport.
+Our project intends to inform users about basic information regarding the three major New York City airports: Newark Liberty International Airport, John F. Kennedy International Airport, and LaGuardia Airport.
 
 Our project is intended for desktop web-browsers and is NOT optimized for mobile. Most desktop-based browsers such as Chrome, Firefox, and Safari are compatible.
 
